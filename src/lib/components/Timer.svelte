@@ -35,7 +35,7 @@
 	on:click={() => boopTimer(false)}
 	class={timerRunning
 		? 'bg-red-400 mx-auto w-full flex justify-center items-center flex-col hover:opacity-75'
-		: 'stopped bg-emerald-400 mx-auto w-full flex justify-center items-center flex-col hover:opacity-75'}
+		: 'stopped bg-emerald-300 mx-auto w-full flex justify-center items-center flex-col hover:opacity-75'}
 >
 	<h1 class="text-2xl text-slate-900 font-bungeetext-2xl text-slate-900 font-bungee ">Timer</h1>
 	<p class="text-5xl text-slate-900 font-bungee">{seconds}</p>

@@ -2,11 +2,11 @@
 	export const prerender = true;
 </script>
 
-<main class="grid gap-4 p-8 max-w-prose">
+<main class="grid gap-8 p-8 max-w-prose">
 	<header>
 		<h1 class="text-indigo-300 text-5xl font-bungee">About Spooky Sets</h1>
 	</header>
-	<article class="grid gap-2">
+	<article class="grid gap-6">
 		<p class="text-gray-50 text-lg">
 			I've beeen doing the r/bodyweightfitness <a
 				class="text-indigo-300 font-bungee"

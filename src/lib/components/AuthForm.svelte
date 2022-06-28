@@ -74,30 +74,29 @@
 			</header>
 		{:else}
 			<header class="text-center">
-				<h1>Sign Up Now</h1>
-				<div class="subheader" />
+				<h1 class="font-bungee text-5xl text-indigo-300">Sign Up Now</h1>
 			</header>
 		{/if}
 		<form class="grid gap-4 py-4" id="form" on:submit|preventDefault={handleSubmit}>
 			<div>
-				<label for="email">Email: </label>
+				<label class="font-bungee text-xl text-indigo-300" for="email">Email: </label>
 				<input
 					id="email"
 					type="email"
 					placeholder="Your email"
 					autocomplete="email"
 					bind:value={email}
-					class="text-xl font-bungee text-indigo-300 grid items-baseline mb-2 border-none p-2 w-full rounded"
+					class="text-xl mt-2 font-bungee text-indigo-300 grid items-baseline mb-2 border-none p-2 w-full rounded"
 				/>
 			</div>
 			<div>
-				<label for="password">Password: </label>
+				<label class="font-bungee text-xl text-indigo-300" for="password">Password: </label>
 				<input
 					type="password"
 					placeholder="Your password"
 					autocomplete="current-password"
 					bind:value={password}
-					class="text-xl font-bungee text-indigo-300 grid items-baseline mb-2 border-none p-2 w-full rounded"
+					class="text-xl mt-2 font-bungee text-indigo-300 grid items-baseline mb-2 border-none p-2 w-full rounded"
 				/>
 			</div>
 			{#if errorMessage}
@@ -106,14 +105,14 @@
 
 			{#if signIn}
 				<input
-					class="block bg-emerald-400 p-4 text-slate-900 w-full text-center rounded font-bungee no-underline text-2xl hover:bg-indigo-300 border-none p-2 w-full rounded"
+					class="mt-4 py-4 block bg-emerald-300 p-4 text-slate-900 w-full text-center rounded font-bungee no-underline text-2xl hover:bg-indigo-300 border-none p-2 w-full rounded"
 					type="submit"
 					value={loading ? 'Loading' : 'Sign In'}
 					disabled={loading}
 				/>
 			{:else}
 				<input
-					class="block bg-emerald-400 p-4 text-slate-900 w-full text-center rounded font-bungee no-underline text-2xl hover:bg-indigo-300 border-none p-2 w-full rounded"
+					class="mt-4 py-4 block bg-emerald-300 text-slate-900 w-full text-center rounded font-bungee no-underline text-2xl hover:bg-indigo-300 border-none p-2 w-full rounded"
 					type="submit"
 					value={loading ? 'Loading' : 'Sign Up'}
 					disabled={loading}
@@ -121,11 +120,11 @@
 			{/if}
 		</form>
 		{#if signIn}
-			<button class="text-indigo-300 bg-none border-none text-xl font-bungee" on:click={toggle}
+			<button class="text-indigo-300 bg-none border-none text-2xl font-bungee" on:click={toggle}
 				>Do you need to sign up?</button
 			>
 		{:else}
-			<button class="text-indigo-300 bg-none border-none text-xl font-bungee" on:click={toggle}
+			<button class="text-indigo-300 bg-none border-none text-2xl font-bungee" on:click={toggle}
 				>Already have an account?</button
 			>
 		{/if}

@@ -69,7 +69,7 @@
 	<Toast />
 	<!-- Workout Title -->
 	<h1
-		class="text-indigo-300 bg-slate-900 font-bungee text-3xl border-0 w-full text-center mt-8"
+		class="text-indigo-300 bg-slate-900 font-bungee text-4xl border-0 w-full text-center mt-8"
 		contenteditable="true"
 		bind:innerHTML={$title}
 		type="text"
@@ -78,7 +78,7 @@
 	<section class="grid gap-4">
 		<div class="grid grid-cols-3 justify-center grid gap-1 mb-4">
 			<button
-				class="bg-emerald-400  flex justify-center items-center flex-col text-xl text-slate-900 cursor-pointer  font-bungee hover:opacity-75 disabled:bg-emerald-200"
+				class="bg-emerald-300  flex justify-center items-center flex-col text-xl text-slate-900 cursor-pointer  font-bungee hover:opacity-75 disabled:bg-emerald-200"
 				on:click={addExercise}
 				title="Add Exercise"
 				>Add Exercise
@@ -101,7 +101,7 @@
 				</button>
 			{:else}
 				<a
-					class="mx-auto h-28 w-full text-slate-900 bg-emerald-400 font-bungee text-center flex justify-center items-center flex-col p-8"
+					class="mx-auto h-28 w-full text-slate-900 bg-emerald-300 font-bungee text-center flex justify-center items-center flex-col p-8"
 					href="/pages/signUp">Log In to Save</a
 				>
 			{/if}

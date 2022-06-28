@@ -47,7 +47,7 @@
 	</header>
 	{#if !bodyfatPercentage}
 		<form
-			class="mx-auto p-8 border-2 border-indigo-300 rounded grid grid-cols-2 gap-4 max-w-md justify-center"
+			class="mx-auto p-8 border-2 border-indigo-300 rounded grid grid-cols-2 gap-4 max-w-md justify-center mx-4"
 			on:submit|preventDefault={processForm(lbs, neck, waist, height, hips)}
 		>
 			<h3 class="col-span-2 text-indigo-300 text-3xl text-center font-bungee">Your Biometrics:</h3>
