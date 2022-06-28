@@ -25,13 +25,13 @@
 			>
 				Spooky Sets
 			</h1>
-			<h2 class="text-3xl text-gray-50 font-bungee; ">
+			<h2 class="text-3xl text-gray-50 font-bungee ">
 				Create a <a href="/pages/workout" class="text-fuchsia-300">Workout</a>
 			</h2>
-			<h2 class="text-3xl text-gray-50 font-bungee; ">
+			<h2 class="text-3xl text-gray-50 font-bungee ">
 				List Your <a href="pages/workout" class="text-fuchsia-300">Exercises</a>
 			</h2>
-			<h2 class="text-3xl text-gray-50 font-bungee; ">
+			<h2 class="text-3xl text-gray-50 font-bungee ">
 				Track Your <a href="/pages/workout" class="text-fuchsia-300">Sets</a>
 			</h2>
 		</header>
