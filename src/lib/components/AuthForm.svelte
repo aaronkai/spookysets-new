@@ -66,14 +66,14 @@
 </script>
 
 <Toast />
-<main class=" grid gap-6 justify-center">
+<main class=" grid gap-6 justify-stretch">
 	{#if !$user}
 		{#if signIn}
 			<header>
 				<h1 class="text-5xl font-bungee text-indigo-300">Sign In</h1>
 			</header>
 		{:else}
-			<header class="text-center">
+			<header>
 				<h1 class="font-bungee text-5xl text-indigo-300">Sign Up Now</h1>
 			</header>
 		{/if}
